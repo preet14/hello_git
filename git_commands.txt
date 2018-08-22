@@ -1,0 +1,39 @@
+GIT COMMANDS:
+
+1.git init
+
+Initializes a git repository – creates the initial .git directory in a new or in an existing project. Example:
+	
+git init 
+Initialized empty Git repository in /home/username/GIT/.git/
+
+2.git config
+
+Sets configuration values for your user name, email, gpg key, preferred diff algorithm, file formats and more. Examples:
+	
+git config --global user.name "My Name"
+git config --global user.email "user@domain.com"
+
+3.git add
+
+Adds files changes in your working directory to your index. Example:
+	
+git add .
+   or
+git add "file_name"
+
+4.git commit
+
+Takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. Examples:
+	
+git commit -m ‘committing added changes’
+
+5.git status
+
+Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing).
+
+6.git push
+
+Pushes all the modified local objects to the remote repository and advances its branches. 
+
+7.
